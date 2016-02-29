@@ -60,7 +60,7 @@ var projects = {
     {
       "title": "Restaurant Recommandation Application (Java web application)",
       "date": "2015 - present",
-      "URL": "#",
+      "URL": "http://emguy.github.io/where-to-eat-server.",
       "description": "This web application generates restaurant recommandations based on the user's location and his previous visiting records. All restaurant data is retrieved from Yelp through the Oauth2 authentication. The final recommendations are determined through a restaurant learning algorithm. The RESTful services are settled on the AWS. All backend logics are implemented using Java servlets, which communicate with MySQL through JDBC. The front-end Android application is developed through the Android Studio. It communicates with the server-side application through JSON objects.",
       "technologies": "Java Servlet, JSON, JDBC, MySQL, RESTful, AWS EC2, Oauth2, and Android studio",
       "images": ["images/p1_01.png", "images/p1_02.png"]
@@ -99,12 +99,20 @@ var projects = {
       "images": []
     },
     {
-      "title": "You Name It (Bash Utilities)",
+      "title": "You Name It (Shell utility)",
       "date": "2015",
       "URL": "http://emguy.github.io/you-name-it",
       "description": "This simple command-line utility renames batched files using the editing power of Vim editor according to your specified patterns. To use this program, you might have Vim enabled on your console.",
       "technologies": "Bash and awk",
       "images": ["images/p6_01.png", "images/p6_02.png"]
+    },
+    {
+      "title": "Movie Trailer Webpage (Web development)",
+      "date": "2015",
+      "URL": "http://emguy.github.io/fresh_tomatoes.html",
+      "description": "This python script generates a static webpage allowing visitors to browse a list of movies and watch the trailers. All movie data is retrived from the Open Movie Database (OMDB) through APIs.",
+      "technologies": "Python, HTML5, CSS and Javascript",
+      "images": ["images/p7_01.png"]
     },
   ]
 };
