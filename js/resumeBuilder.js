@@ -109,7 +109,7 @@ var projects = {
     {
       "title": "Movie Trailer Webpage (Web development)",
       "date": "2015",
-      "URL": "http://emguy.github.io/fresh_tomatoes.html",
+      "URL": "https://emguy.github.io/fresh_tomatoes.html",
       "description": "This python script generates a static webpage allowing visitors to browse a list of movies and watch the trailers. All movie data is retrived from the Open Movie Database (OMDB) through APIs.",
       "technologies": "Python, HTML5, CSS and Javascript",
       "images": ["images/p7_01.png"]
