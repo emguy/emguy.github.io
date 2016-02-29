@@ -22,34 +22,37 @@ var HTMLtwitter = '<li class="flex-item"><span class="orange-text">twitter</span
 var HTMLgithub = '<li class="flex-item"><span class="orange-text">github</span><span class="white-text">%data%</span></li>';
 var HTMLblog = '<li class="flex-item"><span class="orange-text">blog</span><span class="white-text">%data%</span></li>';
 var HTMLlocation = '<li class="flex-item"><span class="orange-text">location</span><span class="white-text">%data%</span></li>';
-
 var HTMLbioPic = '<img src="%data%" class="biopic">';
-var HTMLWelcomeMsg = '<span class="welcome-message">%data%</span>';
+var HTMLWelcomeMsg = '<p id="welcome-message">%data%</p>';
 var HTMLBioMsg = '<span class="bio-message">%data%</span>';
 
-var HTMLskillsStart = '<h3 id="skillsH3">Skills at a Glance:</h3><ul id="skills" class="flex-box">';
-var HTMLskills = '<li class="flex-item"><span class="white-text">%data%</span></li>';
-var HTMLskillsStop = '</ul>'
-
-var HTMLskillsStart = '<h3 id="skillsH3">Skills at a Glance:</h3><ul id="skills" class="flex-box">';
-var HTMLskills = '<li class="flex-item"><span class="white-text">%data%</span></li>';
-var HTMLskillsStop = '</ul>'
+var HTMLSkillsStart     = '<h3 id="skillsH3">Skills at a Glance:</h3><ul id="skills" class="no-head">';
+var HTMLSkillLanguages  = '<li class="skill-entry"><span class="orange-text">Languages</span><span class="white-text">%data%</span></li>';
+var HTMLSkillBackend    = '<li class="skill-entry"><span class="orange-text">Web Development</span><span class="white-text">%data%</span></li>';
+var HTMLSkillDatabase   = '<li class="skill-entry"><span class="orange-text">Database</span><span class="white-text">%data%</span></li>';
+var HTMLSkillOther      = '<li class="skill-entry"><span class="orange-text">Other</span><span class="white-text">%data%</span></li>';
+var HTMLSkillsStop = '</ul>'
 
 var HTMLworkStart = '<div class="work-entry"></div>';
-var HTMLworkEmployer = '<a href="#">%data%';
+var HTMLworkEmployer = '<a href="%url%">%data%';
 var HTMLworkTitle = ' - %data%</a>';
 var HTMLworkDates = '<div class="date-text">%data%</div>';
 var HTMLworkLocation = '<div class="location-text">%data%</div>';
 var HTMLworkDescription = '<p><br>%data%</p>';
 
+var HTMLEntriesStart = '<ul class="entries">';
+var HTMLEntry = '<li class="entry">%data%</li>';
+var HTMLEntriesStop = '</ul>'
+
 var HTMLprojectStart = '<div class="project-entry"></div>';
-var HTMLprojectTitle = '<a href="#">%data%</a>';
+var HTMLprojectTitle = '<a href="%url%">%data%</a>';
 var HTMLprojectDates = '<div class="date-text">%data%</div>';
 var HTMLprojectDescription = '<p><br>%data%</p>';
-var HTMLprojectImage = '<img src="%data%">';
+var HTMLprojectTech = '<p>Applied technologies include %data%.</p>';
+var HTMLprojectImage = '<a class="project-image" href="%data%"><img class="project-image" src="%data%"></a>';
 
 var HTMLschoolStart = '<div class="education-entry"></div>';
-var HTMLschoolName = '<a href="#">%data%';
+var HTMLschoolName = '<a href="%url%">%data%';
 var HTMLschoolDegree = ' -- %data%</a>';
 var HTMLschoolDates = '<div class="date-text">%data%</div>';
 var HTMLschoolLocation = '<div class="location-text">%data%</div>';
@@ -63,6 +66,9 @@ var HTMLonlineURL = '<br><a href="#">%data%</a>';
 
 var internationalizeButton = '<button>Internationalize</button>';
 var googleMap = '<div id="map"></div>';
+
+
+
 
 
 /*

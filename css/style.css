@@ -80,6 +80,21 @@ p {
   font-size: 14px;
   color: #333333;
   line-height: 21px;
+  margin-bottom: 10px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.entry {
+  font-size: 14px;
+  color: #333333;
+  line-height: 21px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.entries {
+  margin-top: 20px;
 }
 
 a {
@@ -89,14 +104,21 @@ a {
   display: block;
 }
 
-.welcome-message {
+#welcome-message {
+  margin-top: 30px;
   font-style: italic;
   font-size: 15px;
   color: #F3F3F3;
   line-height: 28px;
+  text-align: left;
+}
+
+#skills {
+  margin-top:10px;
 }
 
 #skillsH3 {
+  margin-top:20px;
   color: #F5AE23;
   display: none;
 }
@@ -141,6 +163,15 @@ a {
   padding: 10px;
 }
 
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
 .center-content {
   padding-top: 2.5%;
   padding-left: 5%;
@@ -148,7 +179,7 @@ a {
   padding-bottom: 2.5%
 }
 
-ul {
+.no-head {
   list-style-type: none;
 }
 
@@ -245,4 +276,9 @@ span {
   #name {
     color: fuchsia;
   }
+}
+
+.project-image {
+  width: 100px;
+  display: inline;
 }
