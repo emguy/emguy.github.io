@@ -1,5 +1,3 @@
-// ************  Resume's bio Object  ****************** \\
-
 var bio = {
   "name": "Yu Zhang",
   "role": "Software Developer",
@@ -70,7 +68,7 @@ var projects = {
       "date": "2016",
       "URL": "https://emguy-122217.appspot.com",
       "description": "This web application is a cloud-based API server to provide functionalities to organize conferences events for massive amount of participants. All user data are stored in the Google's cloud datastore (NoSQL). I extended the functionality of this web application to support conference sessions, user wishlists, time conflict resolution, and to allow users to query for sessions and conferences.",
-      "technologies": "Oauth2, hybrid authentications, Cloud DAtastore (NoSQL), Google App Engine",
+      "technologies": "Oauth2, hybrid authentications, Cloud Datastore (NoSQL), Google App Engine",
       "images": ["images/p2_01.png", "images/p2_02.png"]
     },
     {
@@ -145,6 +143,18 @@ var education = {
     },
   ],
 };
+
+
+
+
+
+
+
+
+
+
+
+
 
 bio.display = function() {
   var formattedHTMLHeaderName = HTMLheaderName.replace("%data%", bio.name);

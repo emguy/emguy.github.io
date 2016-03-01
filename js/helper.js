@@ -48,7 +48,7 @@ var HTMLprojectStart = '<div class="project-entry"></div>';
 var HTMLprojectTitle = '<a href="%url%">%data%</a>';
 var HTMLprojectDates = '<div class="date-text">%data%</div>';
 var HTMLprojectDescription = '<p><br>%data%</p>';
-var HTMLprojectTech = '<p>Applied technologies include <i>%data%</i>.</p>';
+var HTMLprojectTech = '<p>Applied technologies include <span class="black-text">%data%</span>.</p>';
 var HTMLprojectImage = '<a class="project-image" href="%data%"><img class="project-image" src="%data%"></a>';
 
 var HTMLschoolStart = '<div class="education-entry"></div>';
