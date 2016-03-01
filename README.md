@@ -2,5 +2,5 @@
 
 Below is a link to my interactive resume online:
 
-##http://emguy.github.io/
+### http://emguy.github.io/
 

@@ -68,7 +68,7 @@ var projects = {
       "date": "2016",
       "URL": "https://emguy-122217.appspot.com",
       "description": "This web application is a cloud-based API server to provide functionalities to organize conferences events for massive amount of participants. All user data are stored in the Google's cloud datastore (NoSQL). I extended the functionality of this web application to support conference sessions, user wishlists, time conflict resolution, and to allow users to query for sessions and conferences.",
-      "technologies": "Oauth2, hybrid authentications, Cloud Datastore (NoSQL), Google App Engine",
+      "technologies": "Oauth2, hybrid authentications, Cloud Datastore (NoSQL), Google App Engine, JSON",
       "images": ["images/p2_01.png", "images/p2_02.png"]
     },
     {
@@ -76,7 +76,7 @@ var projects = {
       "date": "2015",
       "URL": "http://ec2-54-213-143-150.us-west-2.compute.amazonaws.com",
       "description": "This web application provides an interface for its registered users to create and maintain their own online catalogs for storing, viewing, and retrieving items inside them. It authenticates users through their Google Plus acounts. All CRUD operations on the PostgreSQL dabase is enabled through the ORM sqlalchemy.",
-      "technologies": "Oauth2, Google plus authenications, FLask, PostgreSQL, SQLAlchemy",
+      "technologies": "Oauth2, Google plus authenications, FLask, PostgreSQL, SQLAlchemy, AWS EC2, JSON",
       "images": ["images/p3_01.png", "images/p3_02.png"]
     },
     {
@@ -98,7 +98,7 @@ var projects = {
     },
     {
       "title": "You Name It (Shell utility)",
-      "date": "2015",
+      "date": "2012",
       "URL": "http://emguy.github.io/you-name-it",
       "description": "This simple command-line utility renames batched files using the editing power of Vim editor according to your specified patterns. To use this program, you might have Vim enabled on your console.",
       "technologies": "Bash and awk",
