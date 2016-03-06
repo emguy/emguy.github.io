@@ -3,7 +3,7 @@
 /**
  * Variables
  */
-var projectname = 'http://54.213.143.150:8080';
+var projectname = 'http://54.213.143.150:8080/where-to-eat';
 var user_id     = '1111';
 var lat         = 43.70;
 var lng         = 79.40;
