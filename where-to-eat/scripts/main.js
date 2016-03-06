@@ -147,7 +147,7 @@ function loadNearbyRestaurants() {
   showLoadingMessage('Loading nearby restaurants...');
   
   // make AJAX call
-  ajax('GET', url + '?' + params, req, 
+  ajax('GET', url + '?' + params, null, 
     // successful callback
     function (res) {
       var restaurants = JSON.parse(res);
@@ -181,7 +181,7 @@ function loadFavoriteRestaurants() {
   showLoadingMessage('Loading favorite restaurants...');
 
   // make AJAX call
-  ajax('GET', url + '?' + params, req, 
+  ajax('GET', url + '?' + params, null, 
     function (res) {
       var restaurants = JSON.parse(res);
       if (!restaurants || restaurants.length === 0) {
@@ -213,7 +213,7 @@ function loadRecommendedRestaurants() {
   showLoadingMessage('Loading recommended restaurants...');
 
   // make AJAX call
-  ajax('GET', url + '?' + params, req,
+  ajax('GET', url + '?' + params, null,
     // successful callback
     function (res) {
       var restaurants = JSON.parse(res);
