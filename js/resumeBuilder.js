@@ -13,7 +13,7 @@ var bio = {
   "database": "SQLite, PostgreSQL, Cloud Datastore (NoSQL), JDBC, ORM technologies",
   "frontend": "HTML, CSS, Javascript (capable)",
   "other": "Unix shell (scripting), GNU toolchain, OpenMP, C++ threads",
-  "portrait": "images/y.png"
+  "portrait": "images/y.jpg"
 };
 
 var work = {
@@ -59,9 +59,9 @@ var projects = {
       "title": "Restaurant Recommandation Application (Java web application)",
       "date": "2015 - present",
       "URL": "http://emguy.github.io/where-to-eat",
-      "description": "This web application generates restaurant recommandations based on the user's location and his previous visiting records. All restaurant data is retrieved from Yelp through the Oauth2 authentication. The final recommendations are determined through a restaurant learning algorithm. The RESTful services are settled on the AWS. All backend logics are implemented using Java servlets, which communicate with MySQL through JDBC. The front-end Android application is developed through the Android Studio. It communicates with the server-side application through JSON objects.",
+      "description": "This web application generates restaurant recommandations based on the user's location and his previous visiting records. All restaurant data is retrieved from Yelp through the Oauth2 authentication. The final recommendations are determined through a restaurant learning algorithm. The RESTful services are settled on the AWS. All backend logics are implemented using Java servlets, which communicate with MySQL through JDBC. An front-end Android application is currently been developed through the Android Studio. It communicates with the server-side application through JSON objects. An web frontend is also available.",
       "technologies": "Java Servlet, JSON, JDBC, MySQL, RESTful, AWS EC2, Oauth2, and Android studio",
-      "images": ["images/p1_01.png", "images/p1_02.png"]
+      "images": ["images/p1_01.jpg", "images/p1_02.jpg", "images/p1_03.jpg"]
     },
     {
       "title": "Conference Organizer (Python web application)",
@@ -69,7 +69,7 @@ var projects = {
       "URL": "https://emguy-122217.appspot.com",
       "description": "This web application is a cloud-based API server to provide functionalities to organize conferences events for massive amount of participants. All user data are stored in the Google's cloud datastore (NoSQL). I extended the functionality of this web application to support conference sessions, user wishlists, time conflict resolution, and to allow users to query for sessions and conferences.",
       "technologies": "Oauth2, hybrid authentications, Cloud Datastore (NoSQL), Google App Engine, JSON",
-      "images": ["images/p2_01.png", "images/p2_02.png"]
+      "images": ["images/p2_01.jpg", "images/p2_02.jpg"]
     },
     {
       "title": "Item Catalog (Python web application)",
@@ -77,7 +77,7 @@ var projects = {
       "URL": "http://ec2-54-213-143-150.us-west-2.compute.amazonaws.com",
       "description": "This web application provides an interface for its registered users to create and maintain their own online catalogs for storing, viewing, and retrieving items inside them. It authenticates users through their Google Plus acounts. All CRUD operations on the PostgreSQL dabase is enabled through the ORM sqlalchemy.",
       "technologies": "Oauth2, Google plus authenications, FLask, PostgreSQL, SQLAlchemy, AWS EC2, JSON",
-      "images": ["images/p3_01.png", "images/p3_02.png"]
+      "images": ["images/p3_01.jpg", "images/p3_02.jpg"]
     },
     {
       "title": "Java Console Chating Program (Java desktop application)",
@@ -86,7 +86,7 @@ var projects = {
       "description": "It is a client/server console chatting program implemented using Java threads and Java sockets. This program includes a user authentication system, a command handler, and a command-line shell.",
 
       "technologies": "Java sockets, Java concurrency, thread group",
-      "images": ["images/p4_01.png"]
+      "images": ["images/p4_01.jpg"]
     },
     {
       "title": "Tournament Plannar (Python desktop application)",
@@ -102,7 +102,7 @@ var projects = {
       "URL": "http://emguy.github.io/you-name-it",
       "description": "This simple command-line utility renames batched files using the editing power of Vim editor according to your specified patterns. To use this program, you might have Vim enabled on your console.",
       "technologies": "Bash and awk",
-      "images": ["images/p6_01.png", "images/p6_02.png"]
+      "images": ["images/p6_01.jpg", "images/p6_02.jpg"]
     },
     {
       "title": "Movie Trailer Webpage (Web development)",
@@ -110,7 +110,7 @@ var projects = {
       "URL": "https://emguy.github.io/fresh_tomatoes.html",
       "description": "This python script generates a static webpage allowing visitors to browse a list of movies and watch the trailers. All movie data is retrived from the Open Movie Database (OMDB) through APIs.",
       "technologies": "Python, HTML5, CSS and Javascript",
-      "images": ["images/p7_01.png"]
+      "images": ["images/p7_01.jpg"]
     },
   ]
 };
