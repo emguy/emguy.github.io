@@ -3,10 +3,10 @@
 /**
  * Variables
  */
-var projectname = '/Dashi';
+var projectname = 'http://54.213.143.150:8080';
 var user_id     = '1111';
-var lng         = -122.08;
-var lat         = 37.38;
+var lat         = 43.70;
+var lng         = 79.40;
 
 /**
  * Initialize
