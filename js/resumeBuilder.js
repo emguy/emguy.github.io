@@ -58,7 +58,7 @@ var projects = {
     {
       "title": "Restaurant Recommandation Application (Java web application)",
       "date": "2015 - present",
-      "URL": "http://emguy.github.io/where-to-eat-server",
+      "URL": "http://emguy.github.io/where-to-eat",
       "description": "This web application generates restaurant recommandations based on the user's location and his previous visiting records. All restaurant data is retrieved from Yelp through the Oauth2 authentication. The final recommendations are determined through a restaurant learning algorithm. The RESTful services are settled on the AWS. All backend logics are implemented using Java servlets, which communicate with MySQL through JDBC. The front-end Android application is developed through the Android Studio. It communicates with the server-side application through JSON objects.",
       "technologies": "Java Servlet, JSON, JDBC, MySQL, RESTful, AWS EC2, Oauth2, and Android studio",
       "images": ["images/p1_01.png", "images/p1_02.png"]
