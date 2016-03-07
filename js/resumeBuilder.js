@@ -11,7 +11,7 @@ var bio = {
   "languages": "Java, C++ (with STL)",
   "backend": "Java Servlet, Tomcat Server, Flask",
   "database": "SQLite, PostgreSQL, Cloud Datastore (NoSQL), JDBC, ORM technologies",
-  "frontend": "HTML, CSS, Javascript (capable)",
+  "frontend": "HTML, CSS, Javascript (beginer), Ajax (beginer)",
   "other": "Unix shell (scripting), GNU toolchain, OpenMP, C++ threads",
   "portrait": "images/y.jpg"
 };
@@ -167,6 +167,7 @@ bio.display = function() {
   var formattedBioPic = HTMLbioPic.replace("%data%", bio.portrait);
   var formattedHTMLLanguages = HTMLSkillLanguages.replace("%data%", bio.languages);
   var formattedHTMLBackend = HTMLSkillBackend.replace("%data%", bio.backend);
+  var formattedHTMLFrontend = HTMLSkillFrontend.replace("%data%", bio.frontend);
   var formattedHTMLDatabase = HTMLSkillDatabase.replace("%data%", bio.database);
   var formattedHTMLOther = HTMLSkillOther.replace("%data%", bio.other);
 
@@ -177,6 +178,7 @@ bio.display = function() {
   $("#skills").append(formattedHTMLLanguages);
   $("#skills").append(formattedHTMLBackend);
   $("#skills").append(formattedHTMLDatabase);
+  $("#skills").append(formattedHTMLFrontend);
   $("#skills").append(formattedHTMLOther);
   $("#header").append(HTMLSkillsStop);
 }
