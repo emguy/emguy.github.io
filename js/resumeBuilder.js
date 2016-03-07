@@ -9,7 +9,7 @@ var bio = {
   },
   "welcomeMessage": "In the past, I have done serious development on high-performance electromagnetic simulation engines (C/C++). Now I want to pursue a career as a software developer.",
   "languages": "Java, C++ (with STL)",
-  "backend": "Java Servlet, Tomcat Server, Flask",
+  "backend": "Java Servlet, JSP, Tomcat Server, Flask",
   "database": "SQLite, PostgreSQL, Cloud Datastore (NoSQL), JDBC, ORM technologies",
   "frontend": "HTML, CSS, Javascript (beginer), Ajax (beginer)",
   "other": "Unix shell (scripting), GNU toolchain, OpenMP, C++ threads",
@@ -35,7 +35,7 @@ var work = {
       "location": "Hamiton, ON, Canada",
       "dates": "2011 - 2015",
       "URL": "http://www.ece.mcmaster.ca",
-      "entries": ["Developed the user-interface a numbers of parallelized computational engines for high-frequency electromagnetic simulations. Applied technologies include C/C++, openMP, C++11 threads, and HDF5.",
+      "entries": ["Developed the user-interface a number of parallelized computational engines for high-frequency electromagnetic simulations. Applied technologies include C/C++, openMP, C++11 threads, and HDF5.",
                   "Developed advanced algorithms in areas of sensitivity analysis, nonlinear-optimization, and inverse problems.",
                   "As the lead author, I published 4 articles in ieee journals and presented 5 articles in refereed conferences.",
                  ]
@@ -59,7 +59,7 @@ var projects = {
       "title": "Restaurant Recommandation Application (Java web application)",
       "date": "2015 - present",
       "URL": "http://emguy.github.io/where-to-eat",
-      "description": "This web application generates restaurant recommandations based on the user's location and his previous visiting records. All restaurant data is retrieved from Yelp through the Oauth2 authentication. The final recommendations are determined through a restaurant learning algorithm. The RESTful services are settled on the AWS. All backend logics are implemented using Java servlets, which communicate with MySQL through JDBC. An front-end Android application is currently been developed through the Android Studio. It communicates with the server-side application through JSON objects. An web frontend is also available.",
+      "description": "This web application generates restaurant recommandations based on the user's location and his previous visiting records. All restaurant data is retrieved from Yelp through the Oauth2 authentication. The final recommendations are determined through a restaurant learning algorithm. The RESTful services are settled on the AWS. All backend logics are implemented using Java servlets, which communicate with MySQL through JDBC. An front-end Android application is currently been developed through the Android Studio. It communicates with the server-side application through JSON objects. A web frontend is also available.",
       "technologies": "Java Servlet, JSON, JDBC, MySQL, RESTful, AWS EC2, Oauth2, and Android studio",
       "images": ["images/p1_01.jpg", "images/p1_02.jpg", "images/p1_03.jpg"]
     },
