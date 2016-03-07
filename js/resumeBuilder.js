@@ -36,7 +36,7 @@ var work = {
       "dates": "2011 - 2015",
       "URL": "http://www.ece.mcmaster.ca",
       "entries": ["Developed the user-interface a number of parallelized computational engines for high-frequency electromagnetic simulations. Applied technologies include C/C++, openMP, C++11 threads, and HDF5.",
-                  "Developed advanced algorithms in areas of sensitivity analysis, nonlinear-optimization, and inverse problems.",
+                  "Developed advanced algorithms in areas of computational electromagnetics, sensitivity analysis, nonlinear-optimization, and inverse problems.",
                   "As the lead author, I published 4 articles in ieee journals and presented 5 articles in refereed conferences.",
                  ]
     },
