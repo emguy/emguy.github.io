@@ -11,7 +11,7 @@ var bio = {
   "languages": "Java, C++ (with STL)",
   "backend": "Java Servlet, JSP, Tomcat Server, Flask",
   "database": "SQLite, PostgreSQL, Cloud Datastore (NoSQL), JDBC, ORM technologies",
-  "frontend": "HTML, CSS, Javascript (beginer), Ajax (beginer)",
+  "frontend": "HTML, CSS, Javascript (intermediate)",
   "other": "Unix shell (scripting), GNU toolchain, OpenMP, C++ threads",
   "portrait": "images/y.jpg"
 };
