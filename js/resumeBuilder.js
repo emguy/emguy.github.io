@@ -7,11 +7,11 @@ var bio = {
   "githubUsername": "emguy",
    "location": "Greater Toronto Area"
   },
-  "welcomeMessage": "In the past, I have done serious development on high-performance electromagnetic simulation engines (C/C++). Now I want to pursue a career as a software developer.",
-  "languages": "Java, C++ (with STL)",
-  "backend": "Java Servlet, JSP, Tomcat Server, Flask",
+  "welcomeMessage": "In the past, I have done serious development on high-performance electromagnetic simulation engines (C/C++). Now I want to pursue a career as a web application developer.",
+  "languages": "JavaScript, C++ (with STL)",
+  "web": "HTML, CSS, React, Bootstrap, JQuery",
   "database": "SQLite, PostgreSQL, Cloud Datastore (NoSQL), JDBC, ORM technologies",
-  "frontend": "HTML, CSS, JavaScript (intermediate), JQuery",
+  "backend": "Python/FLask/SQLAlchemy, Java Sevlet/JSP/JDBC/Tomcat",
   "other": "Unix shell (scripting), GNU toolchain, OpenMP, C++ threads",
   "portrait": "images/y.jpg"
 };
@@ -169,6 +169,7 @@ bio.display = function() {
   var formattedHTMLBackend = HTMLSkillBackend.replace("%data%", bio.backend);
   var formattedHTMLFrontend = HTMLSkillFrontend.replace("%data%", bio.frontend);
   var formattedHTMLDatabase = HTMLSkillDatabase.replace("%data%", bio.database);
+  var formattedHTMLWeb = HTMLSkillWeb.replace("%data%", bio.web);
   var formattedHTMLOther = HTMLSkillOther.replace("%data%", bio.other);
 
   $("#header").prepend(formattedHTMLHeaderName, formattedHTMLHeaderRole);
@@ -176,9 +177,10 @@ bio.display = function() {
   $("#header").append(formattedBioPic, formattedHTMLWelcomeMsg);
   $("#header").append(HTMLSkillsStart);
   $("#skills").append(formattedHTMLLanguages);
+  $("#skills").append(formattedHTMLWeb);
   $("#skills").append(formattedHTMLBackend);
-  $("#skills").append(formattedHTMLDatabase);
-  $("#skills").append(formattedHTMLFrontend);
+  //$("#skills").append(formattedHTMLDatabase);
+  //$("#skills").append(formattedHTMLFrontend);
   $("#skills").append(formattedHTMLOther);
   $("#header").append(HTMLSkillsStop);
 }

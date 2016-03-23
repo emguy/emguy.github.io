@@ -28,7 +28,8 @@ var HTMLBioMsg = '<span class="bio-message">%data%</span>';
 
 var HTMLSkillsStart     = '<h3 id="skillsH3">Skills at a Glance:</h3><ul id="skills" class="no-head">';
 var HTMLSkillLanguages  = '<li class="skill-entry"><span class="orange-text">Languages</span><span class="white-text">%data%</span></li>';
-var HTMLSkillBackend    = '<li class="skill-entry"><span class="orange-text">Web Development</span><span class="white-text">%data%</span></li>';
+var HTMLSkillBackend    = '<li class="skill-entry"><span class="orange-text">Backend</span><span class="white-text">%data%</span></li>';
+var HTMLSkillWeb    = '<li class="skill-entry"><span class="orange-text">Web Development</span><span class="white-text">%data%</span></li>';
 var HTMLSkillDatabase   = '<li class="skill-entry"><span class="orange-text">Database</span><span class="white-text">%data%</span></li>';
 var HTMLSkillFrontend   = '<li class="skill-entry"><span class="orange-text">Frontend</span><span class="white-text">%data%</span></li>';
 var HTMLSkillOther      = '<li class="skill-entry"><span class="orange-text">Other</span><span class="white-text">%data%</span></li>';
