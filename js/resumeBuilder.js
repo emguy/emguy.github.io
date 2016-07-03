@@ -74,7 +74,7 @@ var projects = {
     {
       "title": "Item Catalog (Python web application)",
       "date": "2015",
-      "URL": "http://ec2-54-213-143-150.us-west-2.compute.amazonaws.com",
+      "URL": "http://ec2-54-213-143-150.us-west-2.compute.amazonaws.com:8086",
       "description": "This web application provides an interface for its registered users to create and maintain their own online catalogs for storing, viewing, and retrieving items inside them. It authenticates users through their Google Plus acounts. All CRUD operations on the PostgreSQL dabase is enabled through the ORM sqlalchemy.",
       "technologies": "Oauth2, Google plus authenications, FLask, PostgreSQL, SQLAlchemy, AWS EC2, JSON",
       "images": ["images/p3_01.jpg", "images/p3_02.jpg"]
